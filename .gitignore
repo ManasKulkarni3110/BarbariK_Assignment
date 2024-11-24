@@ -11,6 +11,9 @@ __pycache__/
 *.log
 barbarik_api.log
 
+#tests
+tests/
+
 # Plot files
 plots/
 *.png
