@@ -164,13 +164,10 @@ docker-compose logs -f
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## 👥 Authors
 
-- Your Name - Initial work - [YourGitHub](https://github.com/yourusername)
+- Manas Manoj Kulkarni - [YourGitHub](https://github.com/ManasKulkarni3110)
 
 ## 🙏 Acknowledgments
 
@@ -181,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Support
 
-For support, email your.email@example.com or create an issue in the GitHub repository.
+For support, email manas.2k31@gmail.com or create an issue in the GitHub repository.
 
 ---
 ⭐️ Star this repository if you find it helpful!
