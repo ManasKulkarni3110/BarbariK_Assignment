@@ -167,7 +167,7 @@ docker-compose logs -f
 
 ## 👥 Authors
 
-- Manas Manoj Kulkarni - [YourGitHub](https://github.com/ManasKulkarni3110)
+- Manas Manoj Kulkarni - [GitHub](https://github.com/ManasKulkarni3110)
 
 ## 🙏 Acknowledgments
 
