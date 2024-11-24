@@ -158,8 +158,8 @@ def get_cache(key):
         return None
 
 @lru_cache(maxsize=1000)
-def get_embeddings(text):
-    return model.encode([text])[0]
+def get_embeddings(texts: List[str]):
+    return model.encode(texts, batch_size=32)
 
 @lru_cache(maxsize=100)
 def generate_with_ollama(prompt, context=None):
@@ -242,7 +242,7 @@ async def initialize_database():
     products = ["Laptop", "Smartphone", "Tablet", "Desktop", "Printer", "Monitor"]
     
     sample_data = []
-    for i in range(1000):
+    for i in range(100):
         sample_data.append({
             "customer_id": f"CUST{i:04d}",
             "transaction_id": f"TRX{i:06d}",
